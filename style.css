@@ -97,3 +97,29 @@ body {
     display: none;
     color: #ffadad;
 }
+
+@media (max-width: 625px) {
+    .card{
+        max-width: 75%;
+    }
+}
+
+@media(max-width: 501px) {
+    .card {
+        padding: 35px 20px;
+    }
+    .search input {
+        padding: 15px 10px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 430px) {
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+    .search input {
+        width: 40%;
+    }
+}
